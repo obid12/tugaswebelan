@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    padding: 0px;
+    background-color: #ecf0f3;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    padding: 16px;
+    border-radius: 30px;
+    background-color: #ecf0f3;
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.output {
+    height: 120px;
+    width: 270px;
+    grid-column: span 4;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.output .previous-operand {
+    color: rgba(44, 44, 44, 0.75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+}
+
+button {
+    background-color: #ecf0f3;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    margin: 10px;
+    font-size: 16px;
+
+}
+
+button:hover {
+    background-color: #9dcdf1;
+
+
+
+}
+
+.hasil {
+    width: 115px;
+    border-radius: 45px;
+    box-shadow: inset -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    background-color: #ecf0f3;
+
+}
+
+.hasil:hover {
+    background-color: #9dcdf1;
+
+}
